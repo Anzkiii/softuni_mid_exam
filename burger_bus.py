@@ -1,7 +1,6 @@
 
 num_of_cities = int(input())
 totalprofit = 0
-combination = 0
 city_dict = {}
 for i in range(1, num_of_cities + 1):
     
@@ -17,8 +16,8 @@ for i in range(1, num_of_cities + 1):
         owner_expenses += owner_expenses * 0.5
         
     city_dict.update({f"{name_of_city}":owner_money - owner_expenses})
-final_str = ""
+
 for value, key in city_dict.items():
-    final_str += f"In {value} Burger Bus earned {float(key):.2f} leva.\n"
+    print(f"In {value} Burger Bus earned {float(key):.2f} leva.")
     totalprofit += key
-print(f"{final_str}Burger Bus total profit: {totalprofit} leva.")
+print(f"Burger Bus total profit: {totalprofit:.2f} leva.")
