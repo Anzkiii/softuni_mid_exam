@@ -1,5 +1,6 @@
 # softuni_mid_exam
  This was the mid exam of the softuni python fundementals course
+I was given 4 hours to do these, wasnt as hard as i expect lmao
 
 Here are the links to the exercises.
 
